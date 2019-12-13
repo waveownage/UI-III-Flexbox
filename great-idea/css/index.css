@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-/* Your code starts here! */
+/* Index Page CSS Starts */
 header nav {
 	display: flex;
 	width: 60%;
@@ -98,14 +98,14 @@ header .logo {
   text-align: center;
 
 }
-button {
+.getstarted {
   background-color: white;
   font-size: 14px;
   border: 1px solid black;
   width: 10%;
   padding: 0.5% 1%;
   margin-left: 20%;
-}
+} 
 
 button:hover {
 	transition: 0.4s;
@@ -146,4 +146,47 @@ footer {
 margin-left: 23px;
 width: 100%;
 margin-right: 23px;
+}
+/* Index Page Ends CSS */
+/* Services Page Starts CSS */
+.services-header-img {
+	width: 100%
+}
+.servicestop {
+	border-bottom: 1px solid black;
+	padding-bottom: 2%;
+}
+.servicesmiddle {
+	display: flex;
+	flex-wrap: wrap;
+	height: 70%;
+	justify-content: space-between;;
+}
+.servicesmiddle-sixsections {
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	width: 48%;
+	margin-bottom: 4%;
+	margin-top: 4%;
+	background-color: aqua;
+	padding-left: 1%;
+}
+.servicesmiddlebutton {
+	display: flex;
+	width: 25%;
+	height: 12%;
+	margin-bottom: 6%;
+	justify-content: center;
+	
+}
+.servicesbottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;   
+}
+
+.services-info-img {
+	width: 400px;
+}	
 }
